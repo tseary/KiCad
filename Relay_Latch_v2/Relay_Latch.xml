@@ -1,0 +1,389 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>C:/Users/Thomas/Documents/KiCad/Relay_Latch_v2/Relay_Latch.sch</source>
+    <date>18-04-25 8:33:07 PM</date>
+    <tool>Eeschema (2015-08-26 BZR 6129, Git 2e41367)-product</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>Relay_Latch.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="K1">
+      <value>JS1-12V</value>
+      <footprint>Custom_Library:RELAY_JS1-XXV</footprint>
+      <libsource lib="Custom" part="Relay_SPDT"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A5EB29D</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>1k</value>
+      <footprint>Custom_Library:R_0.25W</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A5EB46C</tstamp>
+    </comp>
+    <comp ref="J2">
+      <value>12V OUT</value>
+      <footprint>Custom_Library:TB_01x02_3.5mm</footprint>
+      <libsource lib="conn" part="CONN_01X02"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A5EB4EE</tstamp>
+    </comp>
+    <comp ref="D4">
+      <value>RED</value>
+      <footprint>Custom_Library:LED_5mm</footprint>
+      <libsource lib="device" part="LED"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A5EB563</tstamp>
+    </comp>
+    <comp ref="D5">
+      <value>GREEN</value>
+      <footprint>Custom_Library:LED_5mm</footprint>
+      <libsource lib="device" part="LED"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A5EB5BE</tstamp>
+    </comp>
+    <comp ref="F1">
+      <value>10A</value>
+      <footprint>Custom_Library:FUSE_Clips_20mm</footprint>
+      <libsource lib="Custom" part="FUSE_SMALL"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A5EB6EB</tstamp>
+    </comp>
+    <comp ref="D1">
+      <value>15V</value>
+      <footprint>Custom_Library:DIODE_Rectifier_1A</footprint>
+      <libsource lib="device" part="ZENER"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A5EB93C</tstamp>
+    </comp>
+    <comp ref="D3">
+      <value>1N4001</value>
+      <footprint>Custom_Library:DIODE_Rectifier_1A</footprint>
+      <libsource lib="device" part="D"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A5EB9BE</tstamp>
+    </comp>
+    <comp ref="D2">
+      <value>1N4001</value>
+      <footprint>Custom_Library:DIODE_Rectifier_1A</footprint>
+      <libsource lib="device" part="D_Schottky"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A5EBCCB</tstamp>
+    </comp>
+    <comp ref="S1">
+      <value>ON</value>
+      <footprint>Custom_Library:Pushbutton_12mm_round</footprint>
+      <libsource lib="device" part="SW_PUSH"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A5EBF92</tstamp>
+    </comp>
+    <comp ref="H1">
+      <value>M3</value>
+      <footprint>Custom_Library:M3_Isolated</footprint>
+      <libsource lib="conn" part="CONN_01X01"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A5ED0A5</tstamp>
+    </comp>
+    <comp ref="H2">
+      <value>M3</value>
+      <footprint>Custom_Library:M3_Isolated</footprint>
+      <libsource lib="conn" part="CONN_01X01"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A5ED1DD</tstamp>
+    </comp>
+    <comp ref="H3">
+      <value>M3</value>
+      <footprint>Custom_Library:M3_Isolated</footprint>
+      <libsource lib="conn" part="CONN_01X01"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A5ED21F</tstamp>
+    </comp>
+    <comp ref="H4">
+      <value>M3</value>
+      <footprint>Custom_Library:M3_Isolated</footprint>
+      <libsource lib="conn" part="CONN_01X01"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A5ED266</tstamp>
+    </comp>
+    <comp ref="Q1">
+      <value>2N3904</value>
+      <footprint>Custom_Library:TO-92</footprint>
+      <libsource lib="device" part="Q_NPN_EBC"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A5FE71F</tstamp>
+    </comp>
+    <comp ref="S2">
+      <value>OFF</value>
+      <footprint>Custom_Library:Pushbutton_12mm_round</footprint>
+      <libsource lib="device" part="SW_PUSH"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A5FE801</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>1k</value>
+      <footprint>Custom_Library:R_0.25W</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A5FE987</tstamp>
+    </comp>
+    <comp ref="J1">
+      <value>12V IN</value>
+      <footprint>Custom_Library:TB_01x02_3.5mm</footprint>
+      <libsource lib="conn" part="CONN_01X02"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5ADB7E80</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="device" part="ZENER">
+      <description>Diode zener</description>
+      <footprints>
+        <fp>D?</fp>
+        <fp>SO*</fp>
+        <fp>SM*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">ZENER</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="SW_PUSH">
+      <description>Button</description>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SW_PUSH</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="D_Schottky">
+      <description>Diode schottky</description>
+      <footprints>
+        <fp>D-Pak_TO252AA</fp>
+        <fp>Diode_*</fp>
+        <fp>*SingleDiode</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>*_Diode_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D_Schottky</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="D">
+      <description>Diode</description>
+      <footprints>
+        <fp>Diode_*</fp>
+        <fp>D-Pak_TO252AA</fp>
+        <fp>*SingleDiode</fp>
+        <fp>*_Diode_*</fp>
+        <fp>*SingleDiode*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Custom" part="Relay_SPDT">
+      <fields>
+        <field name="Reference">K</field>
+        <field name="Value">Relay_SPDT</field>
+      </fields>
+      <pins>
+        <pin num="1" name="COM" type="passive"/>
+        <pin num="2" name="A1" type="passive"/>
+        <pin num="3" name="NO" type="passive"/>
+        <pin num="4" name="NC" type="passive"/>
+        <pin num="5" name="A2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Custom" part="FUSE_SMALL">
+      <fields>
+        <field name="Reference">F</field>
+        <field name="Value">FUSE_SMALL</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="CONN_01X02">
+      <footprints>
+        <fp>Pin_Header_Straight_1X02</fp>
+        <fp>Pin_Header_Angled_1X02</fp>
+        <fp>Socket_Strip_Straight_1X02</fp>
+        <fp>Socket_Strip_Angled_1X02</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">CONN_01X02</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="P2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="CONN_01X01">
+      <footprints>
+        <fp>Pin_Header_Straight_1X01</fp>
+        <fp>Pin_Header_Angled_1X01</fp>
+        <fp>Socket_Strip_Straight_1X01</fp>
+        <fp>Socket_Strip_Angled_1X01</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">CONN_01X01</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="Q_NPN_EBC">
+      <description>Transistor NPN (general)</description>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">Q_NPN_EBC</field>
+      </fields>
+      <pins>
+        <pin num="1" name="E" type="passive"/>
+        <pin num="2" name="B" type="passive"/>
+        <pin num="3" name="C" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="R">
+      <description>Resistor</description>
+      <footprints>
+        <fp>R_*</fp>
+        <fp>Resistor_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="LED">
+      <footprints>
+        <fp>LED-3MM</fp>
+        <fp>LED-5MM</fp>
+        <fp>LED-10MM</fp>
+        <fp>LED-0603</fp>
+        <fp>LED-0805</fp>
+        <fp>LED-1206</fp>
+        <fp>LEDV</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="device">
+      <uri>C:\Program Files\KiCad\share\kicad\library\device.lib</uri>
+    </library>
+    <library logical="Custom">
+      <uri>C:\Users\Thomas\Documents\KiCad\Custom_Library\Custom.lib</uri>
+    </library>
+    <library logical="conn">
+      <uri>C:\Program Files\KiCad\share\kicad\library\conn.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="Net-(H1-Pad1)">
+      <node ref="H1" pin="1"/>
+    </net>
+    <net code="2" name="GND">
+      <node ref="S2" pin="1"/>
+      <node ref="J1" pin="2"/>
+      <node ref="J2" pin="1"/>
+      <node ref="R2" pin="1"/>
+      <node ref="D1" pin="2"/>
+      <node ref="Q1" pin="1"/>
+    </net>
+    <net code="3" name="Net-(H4-Pad1)">
+      <node ref="H4" pin="1"/>
+    </net>
+    <net code="4" name="Net-(H3-Pad1)">
+      <node ref="H3" pin="1"/>
+    </net>
+    <net code="5" name="Net-(H2-Pad1)">
+      <node ref="H2" pin="1"/>
+    </net>
+    <net code="6" name="Net-(D3-Pad2)">
+      <node ref="Q1" pin="3"/>
+      <node ref="D3" pin="2"/>
+      <node ref="K1" pin="5"/>
+    </net>
+    <net code="7" name="Net-(D4-Pad1)">
+      <node ref="D5" pin="1"/>
+      <node ref="D4" pin="1"/>
+      <node ref="R2" pin="2"/>
+    </net>
+    <net code="8" name="Net-(Q1-Pad2)">
+      <node ref="R1" pin="1"/>
+      <node ref="S2" pin="2"/>
+      <node ref="Q1" pin="2"/>
+    </net>
+    <net code="9" name="Net-(F1-Pad1)">
+      <node ref="J1" pin="1"/>
+      <node ref="F1" pin="1"/>
+    </net>
+    <net code="10" name="/STANDBY">
+      <node ref="K1" pin="4"/>
+      <node ref="D4" pin="2"/>
+    </net>
+    <net code="11" name="/COIL+">
+      <node ref="D3" pin="1"/>
+      <node ref="K1" pin="2"/>
+      <node ref="D2" pin="1"/>
+      <node ref="S1" pin="2"/>
+      <node ref="R1" pin="2"/>
+    </net>
+    <net code="12" name="/OUTPUT">
+      <node ref="D2" pin="2"/>
+      <node ref="D5" pin="2"/>
+      <node ref="K1" pin="3"/>
+      <node ref="J2" pin="2"/>
+    </net>
+    <net code="13" name="/INPUT">
+      <node ref="S1" pin="1"/>
+      <node ref="F1" pin="2"/>
+      <node ref="K1" pin="1"/>
+      <node ref="D1" pin="1"/>
+    </net>
+  </nets>
+</export>
